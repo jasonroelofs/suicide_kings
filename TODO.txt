@@ -1,0 +1,2 @@
+ - Allow master to force-retract a bid
+ - Change 'bid' raid text, add "Help" button to describe how to use the system.
