@@ -79,7 +79,7 @@ StaticPopupDialogs[SUICIDEKINGS_CONFIRM] = {
 
 SavedRollLists = { };
 SuicideKingsOptions = {
-   auto = true,
+   auto = false,
    prefix = nil,
    prefix_filter = false,
    use_prefix = false
