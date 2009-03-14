@@ -478,7 +478,7 @@ local function itemLinkClicked(linkText)
    if (not checkLoadedList()) then
       return;
    end
-   
+
    SuicideKings_OpenBidding(linkText);
 end
 
@@ -538,6 +538,7 @@ function SuicideKings_ChatFrame_OnHyperlinkShow(link, text, button)
     if (IsAltKeyDown() and 
        not IsShiftKeyDown() and 
           not IsControlKeyDown()) then
+
       itemLinkClicked(text);
    end
 end
@@ -569,14 +570,8 @@ function SuicideKings_OnLoad()
    SuicideKings_originalChatFrame_OnEvent = ChatFrame_OnEvent;
    ChatFrame_OnEvent = SuicideKings_ChatFrame_OnEvent;
 
-   -- Hook the LootFrameItem_OnClick function
-   -- Nemes 01/10/2007 - hook the new method HandleModifiedItemClick (2.2 API) instead
    hooksecurefunc("HandleModifiedItemClick",
                   SuicideKings_HandleModifiedItemClick);
-
-   -- Hook the ChatFrame_OnHyperlinkShow function
-   hooksecurefunc("ChatFrame_OnHyperlinkShow",
-                  SuicideKings_ChatFrame_OnHyperlinkShow);
 
    -- Set the position to the last saved value if any
    if (SuicideKingsOptions.xpos and
