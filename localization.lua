@@ -378,7 +378,7 @@ else
    SUICIDEKINGS_USE_PREFIX_LABEL="Use auto-list prefix";
    SUICIDEKINGS_FMT_TIE="Inserting <1> resulted in a <2>-way tie.  Tie breaker roll places <1> at position <3> in the list.";
    SUICIDEKINGS_MSG_CURRENT_LIST="current list";
-   SUICIDEKINGS_AUTO_LISTS = { "Raid", "Mage", "Druid", "Paladin", "Warrior", "Rogue", "Hunter", "Warlock", "Priest", "Shaman" };
+   SUICIDEKINGS_AUTO_LISTS = { "Raid", "Mage", "Druid", "Paladin", "Warrior", "Rogue", "Hunter", "Warlock", "Priest", "Shaman", "Death Knight" };
 
    SUICIDEKINGS_MSG_NOTOPEN = "Bidding is not currently open on any item.";
    SUICIDEKINGS_MSG_NOT_MASTER = "SK: note that if you want to receive bids, you must be the master (/sk master)";
