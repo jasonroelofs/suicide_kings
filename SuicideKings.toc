@@ -1,0 +1,16 @@
+## Interface: 30000
+
+## Title: Suicide Kings
+## Notes: A loot distribution system for end-game raiding guilds!
+## Version: 3.09
+
+## Author: ArPharazon
+
+## X-About: SuicideKings is a loot distribution system for endgame raiding guilds.
+## X-Designed-By: JoeHunk & "The Black Company" guild [Whisperwind realm]
+## X-Category: Raid
+## X-Website: http://wow.curseforge.com/projects/suicide-kings/
+
+## SavedVariables: SavedRollLists, SuicideKingsOptions, SuicideKingsSyncKey
+
+SuicideKings.xml
