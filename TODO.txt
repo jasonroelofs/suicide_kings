@@ -1,2 +1,21 @@
  - Allow master to force-retract a bid
  - Change 'bid' raid text, add "Help" button to describe how to use the system.
+ - Add "Close Bid" button to mod
+ - Put timer on bidding, to auto-close in 15(?) seconds
+ - Just plain clean up the button mess in the UI
+
+== New Data
+
+ - Track items won
+ - Track raid attendance and raids run
+ - (make sure the above are synced)
+
+== Syncing
+
+ - Have each person have a "last synced" or something to designate who has the
+   most up-to-date SK data.
+
+== Notes
+
+Look into for examples:
+ - Loot hog
