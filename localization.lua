@@ -386,7 +386,7 @@ else
    SUICIDEKINGS_MSG_NO_BIDDERS = "No bidders found.";
    SUICIDEKINGS_FMT_WINNER = "The winner is <1>.  Gratz!!!";
    SUICIDEKINGS_MSG_BID_OPEN = "Bidding is already open.";
-   SUICIDEKINGS_FMT_BID_NOW_OPEN = "Bidding now open for <1>.  Whisper 'bid' to me if you would like the item.  Whisper 'retract' to retract bid.  Whisper 'suicide' to find your place on the list."
+   SUICIDEKINGS_FMT_BID_NOW_OPEN = "Bidding now open for <1>."; --  Whisper 'bid' to me if you would like the item.  Whisper 'retract' to retract bid.  Whisper 'suicide' to find your place on the list."
    SUICIDEKINGS_MSG_ALREADY_BIDDER = "You are already the high bidder.";
    SUICIDEKINGS_MSG_NO_LIST_SELECTED = "The master has no list selected and cannot accept bids.";
    SUICIDEKINGS_FMT_NOT_HIGH_BIDDER = "<1> is the high bidder.  You are lower on the list and cannot outbid him/her.";
