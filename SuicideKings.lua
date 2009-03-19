@@ -795,6 +795,23 @@ function SuicideKings_OpenBidding(lootLink)
    end
 
    chat(SK_format(SUICIDEKINGS_FMT_BID_NOW_OPEN, lootLink));
+
+   -- Get the specs from wow-loot
+   if WowLoot then
+     local primary, secondary, tertiary = WowLoot:getAllFor(lootLink)
+     if primary ~= "" then 
+	     chat("Primary - " .. primary)
+	     if secondary ~= "" then 
+		     chat("Secondary - " .. secondary)
+	     end
+	     if tertiary ~= "" then
+		     chat("Tertiary - " .. tertiary)
+	     end
+     else
+	     SK_print("The item " .. lootLink .. " is not in the WowLoot database yet")
+     end
+   end
+
    if (SuicideKingsOptions.raidWarn and
        isLeader()) then
       SendChatMessage(SK_format(SUICIDEKINGS_RAID_WARN_TEXT, lootLink),
