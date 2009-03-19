@@ -10,6 +10,11 @@
  - Track raid attendance and raids run
  - (make sure the above are synced)
 
+== Handling Raid Attendance
+
+ - Figure out system of tracking attendance nicely
+ - Handle people entering / leaving raids mid-raid
+
 == Syncing
 
  - Have each person have a "last synced" or something to designate who has the
@@ -19,3 +24,4 @@
 
 Look into for examples:
  - Loot hog
+
